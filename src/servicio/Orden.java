@@ -9,12 +9,17 @@ public class Orden {
     private final int idOrden;
     private final List<Computadora> computadoras;
     private static int contadorOrdenes;
+
     
     public Orden() {
         computadoras = new ArrayList<>();
         idOrden = ++contadorOrdenes;
     }
-    
+
+    /**
+     * 
+     * @param computadora 
+     */
     public void agregarComputadora(Computadora computadora) {
         computadoras.add(computadora);
     }
