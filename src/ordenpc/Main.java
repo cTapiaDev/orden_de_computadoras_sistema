@@ -9,7 +9,7 @@ import servicio.Orden;
 public class Main {
     
     public static void main(String[] args) {
-        
+
         Teclado tecladoDell = new Teclado("usb", "Dell");
         Teclado tecladoDell2 = new Teclado("bluetooth", "Dell");
         Teclado tecladoLenovo = new Teclado("bluetooth", "Lenovo");
